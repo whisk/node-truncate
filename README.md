@@ -1,5 +1,7 @@
 # node-truncate
 
+[![Build Status](https://travis-ci.org/whisk/node-truncate.svg?branch=master)](https://travis-ci.org/whisk/node-truncate)
+
 ## Synopsis
 
 Truncate strings nicely for Node.js. Extends String prototype.
