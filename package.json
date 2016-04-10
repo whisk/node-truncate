@@ -1,0 +1,18 @@
+{
+  "name": "node-truncate",
+  "version": "0.0.1",
+  "description": "String truncate for Node.js",
+  "author": "Alex Svetkin <alex.svetkin@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whisk/node-truncate"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~2.4"
+  }
+}
