@@ -1,6 +1,6 @@
 {
   "name": "node-truncate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "String truncate for Node.js",
   "author": "Alex Svetkin <alex.svetkin@gmail.com>",
   "license": "MIT",

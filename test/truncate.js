@@ -57,3 +57,19 @@ describe('String', function() {
     })
   });
 });
+
+describe('Buffer', function() {
+  describe('truncate', function() {
+    it('should convert buffers to hex', function() {
+        assert.equal('616263646566', new Buffer('abcdef', 'utf-8').truncate());
+    })
+    it('should truncate long buffers', function() {
+      assert.equal(
+        'da9c91b1a4a650179e854447944cf16cd2687e7bec489c965f470561e1217d9d57aab31062254...', 
+        new Buffer('da9c91b1a4a650179e854447944cf16cd2687e7bec489c965f470561e1217d9d57aab310622545dec3e5a195f3', 'hex').truncate());
+    });
+    it('should leave short buffers as is', function() {
+      assert.equal('abcdef', new Buffer('abcdef', 'hex').truncate());
+    });
+  });
+});
