@@ -4,6 +4,7 @@
   "description": "String truncate for Node.js",
   "author": "Alex Svetkin <alex.svetkin@gmail.com>",
   "license": "MIT",
+  "main": "lib/truncate.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/whisk/node-truncate"
